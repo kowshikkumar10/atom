@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script><script> 
+var sam=angular.module("myApp",[]); 
+sam.controller("con",function() {    
+this.name="sam";  });
+</script>
+<body ng-app="myApp">  
+<div ng-controller"con as o">  
+{{o.name}}  
+</div></body>
+</html>
